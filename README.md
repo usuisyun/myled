@@ -22,5 +22,5 @@ echo 1 > /dev/myled0
 echo 0 > /dev/myled0      
 echo 2 > /dev/myled0   
 echo 3 > /dev/myled0  
-![IMG_1740](https://user-images.githubusercontent.com/75220169/101297701-b093d080-386d-11eb-8dc5-57bf0c2bb88c.JPG)
+
 　
