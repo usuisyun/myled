@@ -1,3 +1,4 @@
+// SPDX-License-Tdentifier: GPL-3.0-only
 #include <linux/module.h>
 #include <linux/fs.h>
 #include <linux/cdev.h>
