@@ -24,5 +24,5 @@ echo 2 > /dev/myled0
 echo 3 > /dev/myled0  
 
 # ライセンス　　
-
+GNU Affero General Public License v3.0
 　
