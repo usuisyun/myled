@@ -1,6 +1,0 @@
-[submodule "myled1/myled"]
-	path = myled1/myled
-	url = https://github.com/usuisyun/myled.git
-[submodule "myled1/myled.c"]
-	path = myled1/myled.c
-	url = https://github.com/usuisyun/myled.git
