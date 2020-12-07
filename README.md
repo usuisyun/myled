@@ -9,7 +9,7 @@ Raspberry Pi4(ubuntu20.04 LTS)
 LED2個、220Ω抵抗2個、ジャンパーワイヤ5本、ブレットボード1個
 
 # ３．実装内容 
-LED2個を間に抵抗を挟んでGPIOの24番,26番に接続。　　  <img width="524" alt="2020-12-07" src="https://user-images.githubusercontent.com/75220169/101298444-539a1980-3871-11eb-87ca-cf763e62af0a.png">
+LED2個を間に抵抗を挟んでGPIOの24番,26番に接続。  <img width="524" alt="2020-12-07" src="https://user-images.githubusercontent.com/75220169/101298444-539a1980-3871-11eb-87ca-cf763e62af0a.png">  
 講義で行った点灯、消灯の他に同時点滅、交互に点滅する動作を加えた。  
 （0:消灯　1:点灯　2:同時点滅　3:交互点滅）
 
