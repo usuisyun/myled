@@ -23,6 +23,6 @@ echo 0 > /dev/myled0
 echo 2 > /dev/myled0   
 echo 3 > /dev/myled0  
 
-# ライセンス　　
+# ５．ライセンス　　
 GNU Affero General Public License v3.0
 　
