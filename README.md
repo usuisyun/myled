@@ -14,7 +14,7 @@ LED2個、220Ω抵抗2個、ジャンパーワイヤ5本、ブレットボード
 （0:消灯　1:点灯　2:同時点滅　3:交互点滅）
 
 # ４．実行手順  
-*`make`*  
+make  
 sudo rmmod myled  
 sudo insmod myled.c  
 sudo chmod 666 /dev/myled0  
