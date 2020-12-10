@@ -40,26 +40,26 @@ static ssize_t led_write(struct file* filp, const char* buf, size_t count, loff_
 	else if(c == '2'){
 		for(k=0;k<5;k++)
 		{
-		gpio_base[7] = 1 << i;
-		gpio_base[7] = 1 << i2;
-		__delay(10*1000*1000);
-		gpio_base[10] = 1 << i;
-		gpio_base[10] = 1 << i2;
-		__delay(10*1000*1000);
+			gpio_base[7] = 1 << i;
+			gpio_base[7] = 1 << i2;
+			__delay(10*1000*1000);
+			gpio_base[10] = 1 << i;
+			gpio_base[10] = 1 << i2;
+			__delay(10*1000*1000);
 		}
-		}
+	}
 	else if(c == '3'){
 		for(k=0;k<5;k++)
 		{
-		gpio_base[10] = 1 << i;
-		gpio_base[7] = 1 << i2;
-		__delay(10*1000*1000);
-		gpio_base[7] = 1 << i;
-		gpio_base[10] = 1 << i2;
-		__delay(10*1000*1000);
-		gpio_base[10] = 1 << i;
+			gpio_base[10] = 1 << i;
+			gpio_base[7] = 1 << i2;
+			__delay(10*1000*1000);
+			gpio_base[7] = 1 << i;
+			gpio_base[10] = 1 << i2;
+			__delay(10*1000*1000);
+			gpio_base[10] = 1 << i;
 		}
-		}
+	}
 
 	return 1;
 }
