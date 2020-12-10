@@ -19,10 +19,10 @@ LED2個、220Ω抵抗2個、ジャンパーワイヤ5本、ブレットボード
 `make`      
 `sudo insmod myled.c`  
 `sudo chmod 666 /dev/myled0`  
-`echo 1 > /dev/myled0`    点灯　　
-`echo 0 > /dev/myled0`    消灯　　  
-`echo 2 > /dev/myled0`   　同時点滅　　
-`echo 3 > /dev/myled0`  　交互点滅　　
+`echo 1 > /dev/myled0`　点灯　　　　
+`echo 0 > /dev/myled0`　消灯　　　　  
+`echo 2 > /dev/myled0`　同時点滅　　　　
+`echo 3 > /dev/myled0`　交互点滅　　　　
 
 # ５．デモ動画
 https://youtu.be/Pso4gnbq0T8
