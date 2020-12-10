@@ -2,7 +2,7 @@
 ロボットシステム学　課題1
 
 # １．概要  
-講義内で作成したプログラムを参考に自身で改造したプログラムを作成しLEDを2個に増やして同時点滅、交互に点滅を行うプログラム。
+講義内で作成したプログラムを参考に自身で改造し、LEDを2個に増やして同時点滅、交互に点滅を行うプログラム。
 
 # ２．環境  
 Raspberry Pi4(ubuntu20.04 LTS)  
@@ -24,6 +24,7 @@ echo 2 > /dev/myled0
 echo 3 > /dev/myled0  
 
 # ５．デモ動画
+https://youtu.be/Pso4gnbq0T8
 
 # ６．ライセンス　　
 GNU General Public License v3.0
