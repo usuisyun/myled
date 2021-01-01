@@ -17,7 +17,7 @@ LED2個、220Ω抵抗2個、ジャンパーワイヤ5本、ブレットボード
 `git clone https://github.com/usuisyun/myled.git`  
 `cd myled`  
 `make`      
-`sudo insmod myled.c`  
+`sudo insmod myled.ko`  
 `sudo chmod 666 /dev/myled0`  
 
 `echo 1 > /dev/myled0` 点灯  
